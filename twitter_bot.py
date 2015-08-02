@@ -1,5 +1,13 @@
+#################################################################
+# This script belongs to Farhaan Bukhsh , use it wisely because #
+# the power to choose lies within you. Thou shall choose it well#
+#################################################################
+
 import twitter
-api = twitter.Api(consumer_key='bfSyTpNnSCza7I3kJcSuSju0H',consumer_secret='XDTKR5vTDBigySUm9UYl7S6dmZHrsTdsvoJ5uckAay5qPht8gp', access_token_key='59036562-3VMqfQv8T9jS2v2gBEhCJCCs9bYWYyYMoTKhjvWhA', access_token_secret='x1ANzuuRB7ikgqNXe1Rr4ihn0hkyTagrhWVl4AmZtxPPC')
+api = twitter.Api(consumer_key='',
+                 consumer_secret='',
+                 access_token_key='',
+                 access_token_secret='')
 favorite_hashtags = ['#mozilla','#mozlove','#python','#jnaapti','#msaan']
 def follow_user_hashtags_fav(status_object):
   user_dict = dict()
